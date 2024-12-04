@@ -3,7 +3,7 @@ import React from "react";
 //アロー関数でコンポーネントを定義
 const PokemonThumbnails = ({id, name, image, type}) => {
     return (
-    <div>
+    <div className="thumb-container gress">
         <div className="number">
             <small>#0{id}</small>
         </div>
